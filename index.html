@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Fernando Herrera Rodríguez - Portafolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#education">Educación</a></li>
+            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#news">Noticias</a></li>
+            <li><a href="#game">Juego</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <h1>Bienvenido a mi Portafolio</h1>
+        <p>Soy Michael Fernando Herrera Rodríguez</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Sobre mí</h2>
+        <p>Soy un ingeniero electrónico con una fuerte pasión por el aprendizaje y el crecimiento...</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Blockchain</li>
+            <li>Angular</li>
+            <li>Cybersecurity</li>
+        </ul>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Educación</h2>
+        <ul>
+            <li>Ingeniería Electrónica - Universidad XYZ</li>
+            <li>Bootcamp de Blockchain - Instituto ABC</li>
+            <li>Curso de Ciberseguridad - Google</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <label for="name">Nombre:</label>
+            <input id="name" type="text" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input id="email" type="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="news" class="news">
+        <h2>Noticias</h2>
+        <div id="newsContainer"></div>
+    </section>
+
+    <section id="game" class="game">
+        <h2>Juego</h2>
+        <canvas id="gameCanvas" width="600" height="400"></canvas>
+    </section>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
